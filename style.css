@@ -55,11 +55,23 @@
     .social a{
         font-size: 20px;
         padding-left: 20px;
+        
+    }
+    .navbar-brand{
+        margin-left: 10px;
     }
 }
 @media(max-width:674px){
     .social a{
         font-size: 30px;
         padding-left: 30px;
+    }
+}
+
+@media(max-width:674px){
+    .container p{
+       text-decoration: none;
+       font-family: tahoma;
+    
     }
 }
